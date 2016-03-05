@@ -1,0 +1,205 @@
+@media(min-width:768px) and (max-width:991px) {
+    .slicknav_menu {
+        display: none;
+    }
+    ul#menu li {
+        padding-right: 0;
+    }
+    ul#menu li a {
+        padding: 13px 9px 29px;
+    }
+    .bg_btn {
+        padding-left: 6%;
+    }
+    .bg_header {
+        padding-left: 6%;
+    }
+    .log_ser_one_txt > p {
+        padding-top: 32px;
+    }
+    .bg_btn {
+        padding-bottom: 126px;
+    }
+    .bg_header > h3 {
+        padding-top: 87px;
+    }
+    .state1 {
+        padding-left: 80%;
+    }
+    .state2 {
+        padding-left: 74%;
+    }
+    .state3 {
+        padding-left: 76%;
+    }
+    .team_img {
+        padding-bottom: 8%;
+    }
+    .team_social {
+        right: -343%;
+    }
+    .service_demo > p {
+        padding: 0 17px;
+        text-align: center;
+    }
+    .log_ser_one > p {
+        padding: 0 84px;
+    }
+    .project_img > img {
+        padding-bottom: 5%;
+    }
+    .about_header2 > p {
+        padding-top: 5%;
+    }
+    #owl-demo2 .owl-pagination {
+        right: 40%;
+        top: 107%;
+    }
+    #owl-demo3 .owl-pagination {
+        right: 44%;
+        top: 115%;
+    }
+    .ft_nav {
+        float: left;
+    }
+}
+
+@media(min-width:320px) and (max-width:767px) {
+    .slicknav_menu {
+        display: block;
+    }
+    .slicknav_menu {
+        background: #348AE3 none repeat scroll 0 0!important;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none!important;
+    }
+    .slicknav_btn {
+        background-color: #348ae3!important;
+    }
+    .nav_bar {
+        display: none;
+    }
+    .tel {
+        font-size: 16px;
+    }
+    .call {
+        font-size: 12px;
+    }
+    .logo_right_txt {
+        padding-left: 10px;
+        padding-top: 6%;
+    }
+    .logo_right > img {
+        padding-left: 4px;
+    }
+    .logo {
+        padding-bottom: 6%;
+    }
+    .slicknav_btn {
+        float: left!important;
+    }
+    .bg_header > h3 {
+        font-size: 44px;
+        padding-top: 15px;
+        text-align: center;
+    }
+    .bg_header > p {
+        padding: 0 14%;
+        text-align: center;
+    }
+    .bg_btn {
+        padding-bottom: 24px;
+        text-align: center;
+    }
+    .about_header {
+        padding-top: 0;
+    }
+    .panel-body {
+        font-size: 14px;
+    }
+    .state1 {
+        padding-left: 50%;
+    }
+    .state2 {
+        padding-left: 34%;
+    }
+    .state3 {
+        padding-left: 39%;
+    }
+    strong {
+        font-size: 17px;
+    }
+    .col-md-3.img_btm {
+        padding-bottom: 58px;
+    }
+    .team_social {
+        right: -67%;
+    }
+    .skill_txt > p {
+        font-size: 14px;
+    }
+    .service_demo > p {
+        font-size: 14px;
+    }
+    .log_ser_one > p {
+        font-size: 14px;
+    }
+    .log_ser_one_txt > p {
+        font-size: 17px;
+        padding-top: 32px;
+    }
+    .project_img > img {
+        padding-bottom: 5%;
+    }
+    .header_txt2 > h3 {
+        font-size: 21px;
+    }
+    .about_header2 > p {
+        font-size: 14px;
+    }
+    .numbering > p {
+        font-size: 13px;
+    }
+    .numbering > h2 {
+        font-size: 44px;
+    }
+    .numbering > img {
+        display: none;
+    }
+    #owl-demo2 .owl-pagination {
+        display: none;
+    }
+    #owl-demo3 .owl-pagination {
+        display: none;
+    }
+    .send_btn {
+        text-align: center;
+        padding-bottom: 41px;
+    }
+    .footer_txt > p {
+        font-size: 12px;
+    }
+    .footer_txt > h3 {
+        font-size: 17px;
+    }
+    .ft_nav {
+        padding-top: 26px;
+        text-align: center;
+    }
+    #nav a {
+        font-size: 12px;
+        padding-right: 9px;
+    }
+    .copy {
+        font-size: 11px;
+        text-align: center;
+        float: none;
+    }
+    .cd-top {
+        bottom: 137px;
+    }
+    .col-md-6.map_btm {
+        padding-bottom: 21px;
+    }
+}
