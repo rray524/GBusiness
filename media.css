@@ -1,3 +1,33 @@
+@media(min-width:992px) and (max-width:1199px) {
+    .team_txt_dt {
+        padding: 0 31px 0 6px;
+    }
+    .team_txt_dt2 {
+        padding: 0 8px 0 4px;
+    }
+    .team_txt_dt3 {
+        padding: 0 8px 0 6px;
+    }
+    .team_txt_dt4 {
+        padding: 0 1px 0 3px;
+    }
+    .team_social {
+        right: -76%;
+    }
+    .state1 {
+        padding-left: 70%;
+    }
+    .state2 {
+        padding-left: 61%;
+    }
+    .state3 {
+        padding-left: 64%;
+    }
+    #owl-demo .item img {
+        min-height: 342px;
+    }
+}
+
 @media(min-width:768px) and (max-width:991px) {
     .slicknav_menu {
         display: none;
@@ -24,26 +54,26 @@
         padding-top: 87px;
     }
     .state1 {
-        padding-left: 80%;
+        padding-left: 60%;
     }
     .state2 {
-        padding-left: 74%;
+        padding-left: 48%;
     }
     .state3 {
-        padding-left: 76%;
+        padding-left: 52%;
     }
     .team_img {
         padding-bottom: 8%;
     }
     .team_social {
-        right: -343%;
+        right: -99%;
     }
     .service_demo > p {
         padding: 0 17px;
         text-align: center;
     }
     .log_ser_one > p {
-        padding: 0 84px;
+        padding: 0;
     }
     .project_img > img {
         padding-bottom: 5%;
@@ -61,6 +91,71 @@
     }
     .ft_nav {
         float: left;
+    }
+    #owl-demo .item img {
+        min-height: 390px;
+    }
+    .skill_txt > p {
+        font-size: 13.12px;
+    }
+    .team_txt {
+        top: 75%;
+    }
+    .team_social {
+        font-size: 13px;
+    }
+    .team_txt_dt {
+        padding: 0 18px 0 2px;
+    }
+    .team_txt_dt > h5 {
+        font-size: 12px;
+    }
+    .team_txt_dt > p {
+        font-size: 10px;
+    }
+    .team_txt_dt2 {
+        padding: 0;
+    }
+    .team_txt_dt2 > h5 {
+        font-size: 12px;
+    }
+    .team_txt_dt2 > p {
+        font-size: 10px;
+    }
+    .team_txt_dt3 {
+        padding: 0;
+    }
+    .team_txt_dt3 > h5 {
+        font-size: 12px;
+    }
+    .team_txt_dt3 > p {
+        font-size: 10px;
+    }
+    .team_txt_dt4 > h5 {
+        font-size: 12px;
+    }
+    .team_txt_dt4 > p {
+        font-size: 10px;
+    }
+    .team_txt_dt4 {
+        padding: 0;
+    }
+    .project_img {
+        padding-bottom: 17px;
+    }
+    .address > p {
+        font-size: 13px;
+    }
+    .address_txt > p {
+        font-size: 13px;
+        padding-bottom: 17px;
+    }
+    .footer_txt > p {
+        font-size: 11px;
+    }
+    #owl-demo3 .owl-pagination {
+        text-align: center;
+        position: static;
     }
 }
 

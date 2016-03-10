@@ -207,15 +207,15 @@ ul#menu li a:hover {
 }
 
 .state1 {
-    padding-left: 70%;
+    padding-left: 75%;
 }
 
 .state2 {
-    padding-left: 61%;
+    padding-left: 68%;
 }
 
 .state3 {
-    padding-left: 64%;
+    padding-left: 70%;
 }
 
 .state1,
@@ -320,13 +320,13 @@ a {
 .team_social {
     font-size: 18px;
     position: absolute;
-    right: -57%;
+    right: -64%;
     top: 69%;
     color: #cccccc;
 }
 
 .team_txt_dt2 {
-    padding: 0 21px 0px 16px;
+    padding: 0 21px 0 11px;
 }
 
 .team_txt_dt2 > h5 {
