@@ -157,6 +157,12 @@
         text-align: center;
         position: static;
     }
+    .numbering > h2 {
+        font-size: 52px;
+    }
+    .numbering > p {
+        font-size: 15px;
+    }
 }
 
 @media(min-width:320px) and (max-width:767px) {
@@ -294,7 +300,10 @@
     .cd-top {
         bottom: 137px;
     }
-    .col-md-6.map_btm {
+    .col-sm-6.map_btm {
         padding-bottom: 21px;
+    }
+    .col-sm-3.img_btm {
+        padding-bottom: 47px;
     }
 }
