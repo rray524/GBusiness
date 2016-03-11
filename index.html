@@ -20,6 +20,7 @@
     <!-- Default Theme -->
     <link rel="stylesheet" href="owl.theme.css">
     <link rel="stylesheet" href="animate.min.css">
+
     <style>
         #gmap_canvas img {
             max-width: none!important;
@@ -30,7 +31,8 @@
 </head>
 
 <body>
-    <section class="nav_area">
+
+    <section class="nav_area" id="sec1">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -40,11 +42,11 @@
                     <div class="nav_bar">
                         <nav>
                             <ul id="menu">
-                                <li><a href="#">HOME</a></li>
-                                <li><a href="#">ABOUT</a></li>
-                                <li><a href="#">TEAM</a></li>
-                                <li><a href="#">SERVICES</a></li>
-                                <li><a href="#">CONTACT</a></li>
+                                <li><a href="#sec1" class="active">HOME</a></li>
+                                <li><a href="#sec2">ABOUT</a></li>
+                                <li><a href="#sec3">TEAM</a></li>
+                                <li><a href="#sec4">SERVICES</a></li>
+                                <li><a href="#sec5">CONTACT</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -81,7 +83,7 @@
         </div>
     </section>
     <section class="about_us">
-        <div class="container">
+        <div class="container" id="sec2">
             <div class="row">
                 <div class="col-md-12">
                     <div class="about_header">
@@ -173,7 +175,7 @@
         </div>
         </div>
     </section>
-    <section class="team">
+    <section class="team" id="sec3">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -323,7 +325,7 @@
             </div>
         </div>
     </section>
-    <section class="service">
+    <section class="service" id="sec4">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -527,7 +529,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="sec5">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -767,6 +769,8 @@
         }
         google.maps.event.addDomListener(window, 'load', init_map);
     </script>
+
+
 
 </body>
 
