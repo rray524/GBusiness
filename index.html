@@ -428,7 +428,7 @@
                     <div class="col-md-12">
                         <div class="col-sm-3">
                             <div class="numbering">
-                                <h2>158</h2>
+                                <h2 class="counter">158</h2>
                                 <p>COMPANIES</p>
                                 <img src="slide.png" alt="">
                             </div>
@@ -436,21 +436,21 @@
                         </div>
                         <div class="col-sm-3">
                             <div class="numbering">
-                                <h2>63</h2>
+                                <h2 class="counter">63</h2>
                                 <p>NEW CLIENTS</p>
                                 <img src="slide.png" alt="">
                             </div>
                         </div>
                         <div class="col-sm-3">
                             <div class="numbering">
-                                <h2>421</h2>
+                                <h2 class="counter">421</h2>
                                 <p>COMPLETED PROJECTS</p>
                                 <img src="slide.png" alt="">
                             </div>
                         </div>
                         <div class="col-sm-3">
                             <div class="numbering">
-                                <h2>562</h2>
+                                <h2 class="counter">562</h2>
                                 <p>HAPPY CLIENTS</p>
 
                             </div>
@@ -787,6 +787,16 @@
                         }
                     }
                 });
+            });
+        });
+    </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
             });
         });
     </script>
