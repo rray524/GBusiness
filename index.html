@@ -21,10 +21,10 @@
     <link rel="stylesheet" href="owl.theme.css">
     <link rel="stylesheet" href="animate.min.css">
 
-    <style>
-        #gmap_canvas img {
-            max-width: none!important;
-            background: none!important
+    <style type="text/css">
+        #map {
+            width: 100%;
+            min-height: 517px;
         }
     </style>
 
@@ -594,10 +594,7 @@
 
                     </div>
                     <div class="col-sm-6 map_btm">
-                        <div style='overflow:hidden;height:515px;width:100%;' class="map-ht">
-                            <div id='gmap_canvas' style='height:515px;width:100%;' class="map_ht"></div>
-
-                        </div>
+                        <div id="map"></div>
                     </div>
                 </div>
             </div>
@@ -747,30 +744,53 @@
 
         });
     </script>
-    <script type='text/javascript'>
-        function init_map() {
-            var myOptions = {
+    <script src="gmaps.js"></script>
+    <script type="text/javascript">
+        var map;
+        $(document).ready(function () {
+            map = new GMaps({
+                el: '#map',
+                lat: 51.5144834,
+                lng: -0.0807913,
+                scrollwheel: false,
                 zoom: 18,
-                center: new google.maps.LatLng(51.5144053, -0.08043470000006891),
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
-            map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-            marker = new google.maps.Marker({
-                map: map,
-                position: new google.maps.LatLng(51.5144053, -0.08043470000006891)
+
             });
-            infowindow = new google.maps.InfoWindow({
-                content: '<strong>RAHUL RAY</strong><br>30st mary axe<br>'
+            map.addMarker({
+                lat: 51.5144834,
+                lng: -0.0807913,
+                title: 'Rahul',
+                map: map.map,
+                infoWindow: {
+                    content: '<p> <strong>30 St Mary Axe,London</strong></p>'
+                },
+                mouseover: function () {
+                    (this.infoWindow).open(this.map, this);
+                },
+                mouseout: function () {
+                    this.infoWindow.close();
+                }
+
             });
-            google.maps.event.addListener(marker, 'click', function () {
-                infowindow.open(map, marker);
+
+            $('#geocoding_form').submit(function (e) {
+                e.preventDefault();
+                GMaps.geocode({
+                    address: $('#address').val().trim(),
+                    callback: function (results, status) {
+                        if (status == 'OK') {
+                            var latlng = results[0].geometry.location;
+                            map.setCenter(latlng.lat(), latlng.lng());
+                            map.addMarker({
+                                lat: latlng.lat(),
+                                lng: latlng.lng()
+                            });
+                        }
+                    }
+                });
             });
-            infowindow.open(map, marker);
-        }
-        google.maps.event.addDomListener(window, 'load', init_map);
+        });
     </script>
-
-
 
 </body>
 
