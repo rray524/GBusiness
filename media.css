@@ -1,4 +1,14 @@
 @media(min-width:992px) and (max-width:1199px) {
+    .bg_text {
+        top: 12%;
+    }
+    .bg_header > h3 {
+        font-size: 43px;
+        padding-top: 103px;
+    }
+    ul#menu li {
+        padding-right: 30px;
+    }
     .team_txt_dt {
         padding: 0 31px 0 6px;
     }
@@ -15,13 +25,13 @@
         right: -76%;
     }
     .state1 {
-        padding-left: 70%;
+        padding-left: 52%;
     }
     .state2 {
-        padding-left: 61%;
+        padding-left: 56%;
     }
     .state3 {
-        padding-left: 64%;
+        padding-left: 71%;
     }
     #owl-demo .item img {
         min-height: 342px;
@@ -29,14 +39,46 @@
 }
 
 @media(min-width:768px) and (max-width:991px) {
+    .state1 {
+        padding-left: 36%;
+    }
+    .state2 {
+        padding-left: 42%;
+    }
+    .state3 {
+        padding-left: 62%;
+    }
+    .bg_header > h3 {
+        font-size: 31px;
+    }
+    .btn-group-lg > .btn,
+    .btn-lg {
+        padding: 4px 7px;
+    }
     .slicknav_menu {
         display: none;
     }
+    .logo_right > img {
+        padding-left: 5px;
+    }
+    .logo_right_txt {
+        padding-left: 3px;
+    }
+    .tel {
+        font-size: 16px;
+    }
+    ul#menu {
+        padding-left: 29.5%;
+        padding-top: 36px;
+    }
     ul#menu li {
-        padding-right: 0;
+        padding-right: 11px;
     }
     ul#menu li a {
         padding: 13px 9px 29px;
+    }
+    ul#menu li a {
+        font-size: 13px;
     }
     .bg_btn {
         padding-left: 6%;
@@ -52,15 +94,6 @@
     }
     .bg_header > h3 {
         padding-top: 87px;
-    }
-    .state1 {
-        padding-left: 60%;
-    }
-    .state2 {
-        padding-left: 48%;
-    }
-    .state3 {
-        padding-left: 52%;
     }
     .team_img {
         padding-bottom: 8%;
@@ -166,6 +199,29 @@
 }
 
 @media(min-width:320px) and (max-width:767px) {
+    .logo_right {
+        position: inherit;
+        right: 0;
+        top: 0;
+    }
+    .logo {
+        float: none;
+        padding-top: 31px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .fa.fa-chevron-up.state1 {
+        display: none;
+    }
+    .fa.fa-chevron-down.state3 {
+        display: none;
+    }
+    .fa.fa-chevron-down.state2 {
+        display: none;
+    }
+    .bg_text {
+        display: none;
+    }
     .slicknav_menu {
         display: block;
     }
@@ -188,15 +244,13 @@
         font-size: 12px;
     }
     .logo_right_txt {
-        padding-left: 10px;
-        padding-top: 6%;
+        padding-left: 0;
+        padding-top: 0;
     }
     .logo_right > img {
         padding-left: 4px;
     }
-    .logo {
-        padding-bottom: 6%;
-    }
+    .logo {}
     .slicknav_btn {
         float: left!important;
     }
@@ -305,5 +359,15 @@
     }
     .col-sm-3.img_btm {
         padding-bottom: 47px;
+    }
+    .mob {
+        display: none;
+    }
+    .hr {
+        display: none
+    }
+    .logo_right_txt {
+        float: none;
+        text-align: center;
     }
 }

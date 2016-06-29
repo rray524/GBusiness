@@ -18,6 +18,10 @@ body {
     src: url(PTF55F.ttf);
 }
 
+.carousel-indicators li {
+    border: 1px solid green;
+}
+
 
 /*************logo area**************/
 
@@ -26,12 +30,12 @@ body {
 }
 
 .nav_area {
-    background-color: #FFFFFF;
+    background-color: #262626;
 }
 
 .logo {
     float: left;
-    padding-top: 20px;
+    padding-top: 31px;
 }
 
 .nav_bar {
@@ -96,17 +100,29 @@ ul#menu li a:hover {
     font-family: PT Sans;
     font-size: 20px;
     font-weight: bold;
-    color: #363636;
+    color: #fff;
 }
 
 
 /****************bg_area****************/
 
-.bg_area {
+.item.active > img {
+    width: 100%;
+}
+
+
+/*.bg_area {
     background-image: url(bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}*/
+
+.bg_text {
+    left: 25%;
+    position: absolute;
+    top: 11%;
+    width: 50%;
 }
 
 .bg_header>h3 {
@@ -125,6 +141,7 @@ ul#menu li a:hover {
     font-weight: bold;
     color: #FFFFFF;
     padding-top: 270px;
+    text-align: center;
 }
 
 .bg_header>p {
@@ -133,6 +150,7 @@ ul#menu li a:hover {
     color: #fff;
     padding-top: 23px;
     padding-bottom: 40px;
+    text-align: center;
 }
 
 .btn-primary {
@@ -142,7 +160,8 @@ ul#menu li a:hover {
 }
 
 .bg_btn {
-    padding-bottom: 298px;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
 
@@ -207,15 +226,15 @@ ul#menu li a:hover {
 }
 
 .state1 {
-    padding-left: 75%;
+    padding-left: 61%;
 }
 
 .state2 {
-    padding-left: 68%;
+    padding-left: 64%;
 }
 
 .state3 {
-    padding-left: 70%;
+    padding-left: 76%;
 }
 
 .state1,
@@ -301,7 +320,7 @@ a {
 }
 
 .team_txt_dt {
-    padding: 0 66px 0px 16px;
+    padding: 0 33px 0px 16px;
 }
 
 .team_txt_dt > h5 {
@@ -326,7 +345,7 @@ a {
 }
 
 .team_txt_dt2 {
-    padding: 0 21px 0 11px;
+    padding: 0 73px 0 11px;
 }
 
 .team_txt_dt2 > h5 {
@@ -343,7 +362,7 @@ a {
 }
 
 .team_txt_dt3 {
-    padding: 0 40px 0px 16px;
+    padding: 0 7px 0px 16px;
 }
 
 .team_txt_dt3 > h5 {
@@ -360,7 +379,7 @@ a {
 }
 
 .team_txt_dt4 {
-    padding: 0 24px 0px 16px;
+    padding: 0 59px 0px 16px;
 }
 
 .team_txt_dt4 > h5 {
@@ -417,7 +436,7 @@ a {
 h4 {
     font-family: PT Sans;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 15px;
     display: inline;
     color: #363636;
 }
